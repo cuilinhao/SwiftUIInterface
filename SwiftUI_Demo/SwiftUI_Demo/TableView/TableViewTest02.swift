@@ -16,11 +16,11 @@ struct TableViewTest02: View {
     
     @State private var selection: String = ""
     
-//    init() {
-//
-//        UITabBar.appearance().backgroundColor = UIColor.green
-//        UITabBar.appearance().backgroundImage = UIImage()
-//    }
+    init() {
+
+        UITabBar.appearance().backgroundColor = UIColor.green
+        UITabBar.appearance().backgroundImage = UIImage()
+    }
     
     var body: some View {
         

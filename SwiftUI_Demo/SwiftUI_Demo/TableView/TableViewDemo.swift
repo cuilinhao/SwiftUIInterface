@@ -13,7 +13,7 @@ struct TableViewDemo: View {
     
     var body: some View {
         
-        Text("Hello, World!")
+        
         
         List {
             
@@ -41,7 +41,58 @@ struct TableViewDemo: View {
                 }
             }
         }
+        
+        actionSheetStruct()
+            .padding()
+        
+        Text("Hello, World!")
+        
+        Button("cccc"){
+            print("+++++++++ +")
+        }
+        
     }
+}
+
+struct actionSheetStruct : View {
+    
+    /**
+     
+     action sheets 和 alerts 共享许多相同的功能。两者都是借助 modifier 附加到视图层级 —— alert 用 alert()，而 action sheet 用 actionSheet() —— 两者都是在某个条件成立时由 SwiftUI 自动显示，两者都使用同类的按钮，两者都有一些内建的默认按钮样式：default()，cancel() 和 destructive()。
+     
+     */
+    @State private var showingActionSheet = false
+    @State private var backGroundColor = Color.white
+    
+    
+    var body: some View {
+
+        Text(" ActionSheet Test")
+            .frame(width: 300, height: 300)
+            .foregroundColor(.red)
+            //Font.custom("FjallaOne-Regular", size: size)
+            .font(.system(size: 30))
+            .background(backGroundColor)
+            .onTapGesture {
+                self.showingActionSheet = true
+            }
+            .actionSheet(isPresented: $showingActionSheet) {
+                    ActionSheet(title: Text("Change background"), message: Text("Select a new color"), buttons: [
+                                    .default(Text("Red")){
+                                        self.backGroundColor = .red
+                                    },
+                                    .default(Text("Green")){
+                                        self.backGroundColor = .secondary
+                                    },
+                                    .default(Text("blue")){
+                                        self.backGroundColor = .orange
+                                    },
+                        .cancel()
+                    ])
+            }
+        
+    }
+    
 }
 
 struct TableViewDemo_Previews: PreviewProvider {

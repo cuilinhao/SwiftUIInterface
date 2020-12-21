@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5115B1572590504A002AECD8 /* EquatableViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115B1562590504A002AECD8 /* EquatableViewTest.swift */; };
 		511BD55C258713110069F351 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511BD55B258713110069F351 /* DatePickerView.swift */; };
 		511BD55F2587596D0069F351 /* DatePickerView02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511BD55E2587596D0069F351 /* DatePickerView02.swift */; };
 		511BD56225875B370069F351 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511BD56125875B370069F351 /* SliderView.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5115B1562590504A002AECD8 /* EquatableViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableViewTest.swift; sourceTree = "<group>"; };
 		511BD55B258713110069F351 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		511BD55E2587596D0069F351 /* DatePickerView02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView02.swift; sourceTree = "<group>"; };
 		511BD56125875B370069F351 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
@@ -116,11 +118,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		511BD5A3258996B90069F351 /* 未命名文件夹的副本4 */ = {
+		511BD5A3258996B90069F351 /* EquatableView */ = {
 			isa = PBXGroup;
 			children = (
+				5115B1562590504A002AECD8 /* EquatableViewTest.swift */,
 			);
-			path = "未命名文件夹的副本4";
+			path = EquatableView;
 			sourceTree = "<group>";
 		};
 		511BD5A4258996B90069F351 /* 未命名文件夹的副本2 */ = {
@@ -311,7 +314,7 @@
 				511BD5A8258996B90069F351 /* 未命名文件夹的副本 */,
 				511BD5A4258996B90069F351 /* 未命名文件夹的副本2 */,
 				511BD5A6258996B90069F351 /* 未命名文件夹的副本3 */,
-				511BD5A3258996B90069F351 /* 未命名文件夹的副本4 */,
+				511BD5A3258996B90069F351 /* EquatableView */,
 				511BD5A5258996B90069F351 /* TableView */,
 				515E9AB6257F69470097676F /* StackView */,
 				515E9AB7257F69470097676F /* progress */,
@@ -499,6 +502,7 @@
 				515E9A95257F65BA0097676F /* LinkView.swift in Sources */,
 				511BD59325888F3B0069F351 /* StackDemo.swift in Sources */,
 				511BD5A1258899410069F351 /* DatePickerDemo.swift in Sources */,
+				5115B1572590504A002AECD8 /* EquatableViewTest.swift in Sources */,
 				511BD5AA258996EF0069F351 /* TableViewTest.swift in Sources */,
 				51592BCE257DD2D1001C8D40 /* ButtonViewDemo.swift in Sources */,
 				519DC96E2578E829007C43FD /* TextEditorView.swift in Sources */,
