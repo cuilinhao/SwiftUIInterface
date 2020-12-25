@@ -34,6 +34,8 @@ struct TableViewTest02: View {
                 } icon: {
                     Image(systemName: "house")
                 }
+                
+                
             }
             .tag(0)
             
@@ -58,6 +60,17 @@ struct TableViewTest02: View {
 
         }
         .modifier(pf_navigationTitleColor(bgColor: UIColor(.pink), fontColor: .green))
+        /** 注释
+         someSubView{
+         //your code here
+         }.onAppear(perform: {
+                         UITabBar.appearance().isHidden = true
+                     })
+         )
+         */
+//        .onAppear(perform: {
+//            UITabBar.appearance().isHidden = true
+//        })
     }
 }
 

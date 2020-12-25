@@ -14,8 +14,7 @@ struct LazyVStackView: View {
     var body: some View {
         
         Text("Hello, World!")
-       
-        
+
         ScrollView(.horizontal) {
             
             LazyHStack(alignment: .top, spacing: 10) {

@@ -10,9 +10,9 @@ import SwiftUI
 struct LazyHStackView: View {
     
     var plans : [String] = ["1", "2","3","4","5","6","1", "2","3","4","5","6","1", "2","3","4","5","6","1", "2","3","4","5","6","1", "2","3","4","5","6","1", "2","3","4","5","6",]
+    
     var body: some View {
         Text("Hello, World!")
-        
        
         ScrollView {
             LazyVStack(alignment: .leading) {

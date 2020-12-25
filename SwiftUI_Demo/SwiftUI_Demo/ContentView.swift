@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var plan : [String] = ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20"]
+    var plan : [String] = ["01","02","03"]
     
     //TextUIView
     var classArray:[AnyObject] = [CountView(),TextUIView(),TextUIView()] as [AnyObject]
@@ -26,12 +26,12 @@ struct ContentView: View {
                         NavigationLink(
                             //destination: ButtonView(),
                             //MenuView
-                            destination: TableViewDemo(),
+                            destination: SwiftUIViewDemo(),
                             label: {
                                 Image("111")
                                     .resizable()
-                                    .scaledToFit()
                                     .frame(width: 100, height: 100)
+                                    .cornerRadius(50)
                                 
                                 Text("tap me Test")
                             })
@@ -44,8 +44,9 @@ struct ContentView: View {
                             label: {
                                 Image("222")
                                     .resizable()
-                                    .scaledToFit()
+                                    //.scaledToFit()
                                     .frame(width: 100, height: 100)
+                                    .cornerRadius(50)
                                 
                                 Text("tap me Test")
                             })
@@ -59,26 +60,10 @@ struct ContentView: View {
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)
+                                    .cornerRadius(50)
                                 
                                 Text("tap me Test")
                             })
-                    case "04":
-                        NavigationLink(plan, destination: TextEditorView())
-                            .padding(10)
-                    case "05":
-                        NavigationLink(plan, destination: TextUIView())
-                    case "06":
-                        NavigationLink(plan, destination: TextFieldView())
-                    case "07":
-                        NavigationLink(plan, destination: CountView())
-                    case "08":
-                        NavigationLink(plan, destination: TextUIView())
-                    case "09":
-                        NavigationLink(plan, destination: TextFieldView())
-                    case "10":
-                        NavigationLink(plan, destination: CountView())
-                            //.padding([.top, .bottom], 100)
-                            .padding(10)
                     default:
                         NavigationLink(plan, destination: TextFieldView())
                     }

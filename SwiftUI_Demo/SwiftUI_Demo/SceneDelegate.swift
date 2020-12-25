@@ -24,12 +24,39 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            
+            //---
+            //let tabBar = TabBarState()
+            window.rootViewController = UIHostingController(rootView: contentView.environmentObject(TableModel()))
             self.window = window
             window.makeKeyAndVisible()
+            
+            //MARK: 监听TabBarState 状态
+            //tabBar.$hidden.receive(subscriber: anysu)
+//            tabBar.$hidden.receive(subscriber: AnySubscriber(receiveSubscription: { (sub) in
+//                            sub.request(.unlimited)
+//                        }, receiveValue: { (value) -> Subscribers.Demand in
+//                            self.tabBarHidden(hidden: value)
+//                            return .none
+//                        }))
+            
         }
     }
 
+    //MARK:--------------
+    
+    func tabBarhidden(hidden: Bool) {
+        
+        for viewController in self.window!.rootViewController!.children {
+            let tabBarController = viewController as! UITabBarController
+            if tabBarController.tabBar.isHidden !=  hidden {
+                tabBarController.tabBar.isHidden = hidden
+            }
+            return
+        }
+    }
+    
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

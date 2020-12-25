@@ -54,11 +54,17 @@ struct TableViewTest: View {
                 .background(Color.green)
             
             Text("Another Tab")
+            Button("123") {
+                //NavigationLink("hahah", destination: LazyHStackView())
+                //????
+                
+            }
                 .tabItem {
                     Image(systemName: "2.square.fill")
                     //.resizable()
                     //.frame(width: 20, height: 20, alignment: .center)
                     Text("Second")
+                    
                 }
             Text("The Last Tab")
                 .tabItem {
@@ -73,6 +79,14 @@ struct TableViewTest: View {
     //accentColorTest()
     //}
     
+}
+
+func testtt() {
+    
+//    NavigationLink(
+//        destination: LazyHStackView()){
+//        Text("下一步 (选择收货地址)")
+//    }
 }
 
 

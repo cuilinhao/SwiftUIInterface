@@ -37,7 +37,7 @@ struct TableViewDemo: View {
                 case "1":
                     NavigationLink("TableViewTest02", destination: TableViewTest02())
                 default:
-                    NavigationLink("03", destination: TableViewTest())
+                    NavigationLink("TableView03", destination: TableView03())
                 }
             }
         }

@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5115B1572590504A002AECD8 /* EquatableViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115B1562590504A002AECD8 /* EquatableViewTest.swift */; };
+		5115B19C25919E21002AECD8 /* AnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115B19B25919E21002AECD8 /* AnimationDemo.swift */; };
+		5115B1A02591D3BA002AECD8 /* SwiftUIViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115B19F2591D3BA002AECD8 /* SwiftUIViewDemo.swift */; };
+		5115B1BB25921546002AECD8 /* TableView03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115B1BA25921546002AECD8 /* TableView03.swift */; };
+		5115B1CE25921D5C002AECD8 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115B1CD25921D5C002AECD8 /* TableModel.swift */; };
+		5115B1D425921DB3002AECD8 /* TabBar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115B1D325921DB3002AECD8 /* TabBar1.swift */; };
+		5115B1D825921DBD002AECD8 /* TabBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115B1D725921DBD002AECD8 /* TabBar2.swift */; };
+		5115B1DC25921ED1002AECD8 /* FullDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5115B1DB25921ED1002AECD8 /* FullDetailView.swift */; };
 		511BD55C258713110069F351 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511BD55B258713110069F351 /* DatePickerView.swift */; };
 		511BD55F2587596D0069F351 /* DatePickerView02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511BD55E2587596D0069F351 /* DatePickerView02.swift */; };
 		511BD56225875B370069F351 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511BD56125875B370069F351 /* SliderView.swift */; };
@@ -25,6 +32,9 @@
 		511BD5BE2589A70B0069F351 /* SwiftUI_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511BD5BD2589A70B0069F351 /* SwiftUI_DemoTests.swift */; };
 		511F19F4257495010000B12D /* TextUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511F19F3257495010000B12D /* TextUIView.swift */; };
 		5130C657257FAC6400F8AA2F /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130C656257FAC6400F8AA2F /* OrderModel.swift */; };
+		513F4B3E25932A8E00D574E4 /* DrawingSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513F4B3D25932A8E00D574E4 /* DrawingSwiftUIView.swift */; };
+		513F4B422593325700D574E4 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513F4B412593325700D574E4 /* HexagonParameters.swift */; };
+		513F4B482593382E00D574E4 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513F4B472593382E00D574E4 /* GeometryReaderView.swift */; };
 		51592BCB257DD268001C8D40 /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592BCA257DD268001C8D40 /* EditButtonView.swift */; };
 		51592BCE257DD2D1001C8D40 /* ButtonViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592BCD257DD2D1001C8D40 /* ButtonViewDemo.swift */; };
 		515E9A8E257F4D250097676F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E9A8D257F4D250097676F /* MenuView.swift */; };
@@ -58,6 +68,13 @@
 
 /* Begin PBXFileReference section */
 		5115B1562590504A002AECD8 /* EquatableViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableViewTest.swift; sourceTree = "<group>"; };
+		5115B19B25919E21002AECD8 /* AnimationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemo.swift; sourceTree = "<group>"; };
+		5115B19F2591D3BA002AECD8 /* SwiftUIViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewDemo.swift; sourceTree = "<group>"; };
+		5115B1BA25921546002AECD8 /* TableView03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView03.swift; sourceTree = "<group>"; };
+		5115B1CD25921D5C002AECD8 /* TableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
+		5115B1D325921DB3002AECD8 /* TabBar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar1.swift; sourceTree = "<group>"; };
+		5115B1D725921DBD002AECD8 /* TabBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar2.swift; sourceTree = "<group>"; };
+		5115B1DB25921ED1002AECD8 /* FullDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullDetailView.swift; sourceTree = "<group>"; };
 		511BD55B258713110069F351 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		511BD55E2587596D0069F351 /* DatePickerView02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView02.swift; sourceTree = "<group>"; };
 		511BD56125875B370069F351 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
@@ -77,6 +94,9 @@
 		511BD5BF2589A70B0069F351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		511F19F3257495010000B12D /* TextUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUIView.swift; sourceTree = "<group>"; };
 		5130C656257FAC6400F8AA2F /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		513F4B3D25932A8E00D574E4 /* DrawingSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingSwiftUIView.swift; sourceTree = "<group>"; };
+		513F4B412593325700D574E4 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		513F4B472593382E00D574E4 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		51592BCA257DD268001C8D40 /* EditButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonView.swift; sourceTree = "<group>"; };
 		51592BCD257DD2D1001C8D40 /* ButtonViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewDemo.swift; sourceTree = "<group>"; };
 		515E9A8D257F4D250097676F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
@@ -126,28 +146,37 @@
 			path = EquatableView;
 			sourceTree = "<group>";
 		};
-		511BD5A4258996B90069F351 /* 未命名文件夹的副本2 */ = {
+		511BD5A4258996B90069F351 /* GeometryReader */ = {
 			isa = PBXGroup;
 			children = (
+				513F4B472593382E00D574E4 /* GeometryReaderView.swift */,
 			);
-			path = "未命名文件夹的副本2";
+			path = GeometryReader;
 			sourceTree = "<group>";
 		};
 		511BD5A5258996B90069F351 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				511BD5B425899A770069F351 /* TableViewDemo.swift */,
 				511BD5A9258996EF0069F351 /* TableViewTest.swift */,
 				511BD5B1258997130069F351 /* TableViewTest02.swift */,
-				511BD5B425899A770069F351 /* TableViewDemo.swift */,
+				5115B1BA25921546002AECD8 /* TableView03.swift */,
+				5115B1CD25921D5C002AECD8 /* TableModel.swift */,
+				5115B1D325921DB3002AECD8 /* TabBar1.swift */,
+				5115B1D725921DBD002AECD8 /* TabBar2.swift */,
+				5115B1DB25921ED1002AECD8 /* FullDetailView.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
 		};
-		511BD5A6258996B90069F351 /* 未命名文件夹的副本3 */ = {
+		511BD5A6258996B90069F351 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				5115B19B25919E21002AECD8 /* AnimationDemo.swift */,
+				513F4B3D25932A8E00D574E4 /* DrawingSwiftUIView.swift */,
+				513F4B412593325700D574E4 /* HexagonParameters.swift */,
 			);
-			path = "未命名文件夹的副本3";
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		511BD5A7258996B90069F351 /* 未命名文件夹 */ = {
@@ -312,8 +341,8 @@
 			children = (
 				511BD5A7258996B90069F351 /* 未命名文件夹 */,
 				511BD5A8258996B90069F351 /* 未命名文件夹的副本 */,
-				511BD5A4258996B90069F351 /* 未命名文件夹的副本2 */,
-				511BD5A6258996B90069F351 /* 未命名文件夹的副本3 */,
+				511BD5A4258996B90069F351 /* GeometryReader */,
+				511BD5A6258996B90069F351 /* Animation */,
 				511BD5A3258996B90069F351 /* EquatableView */,
 				511BD5A5258996B90069F351 /* TableView */,
 				515E9AB6257F69470097676F /* StackView */,
@@ -334,6 +363,7 @@
 				51E90EF7256F4D0F00BD1E5F /* AppDelegate.swift */,
 				51E90EF9256F4D0F00BD1E5F /* SceneDelegate.swift */,
 				51E90EFB256F4D0F00BD1E5F /* ContentView.swift */,
+				5115B19F2591D3BA002AECD8 /* SwiftUIViewDemo.swift */,
 				51E90EFF256F4D1100BD1E5F /* Preview Content */,
 			);
 			path = SwiftUI_Demo;
@@ -473,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513F4B422593325700D574E4 /* HexagonParameters.swift in Sources */,
 				511BD59E2588953F0069F351 /* NavigationBarColorDemo.swift in Sources */,
 				511F19F4257495010000B12D /* TextUIView.swift in Sources */,
 				515E9A8E257F4D250097676F /* MenuView.swift in Sources */,
@@ -480,31 +511,40 @@
 				511BD57125876D050069F351 /* ProgressTestView.swift in Sources */,
 				51E90EF8256F4D0F00BD1E5F /* AppDelegate.swift in Sources */,
 				51780A32257A184500834045 /* ButtonView.swift in Sources */,
+				5115B19C25919E21002AECD8 /* AnimationDemo.swift in Sources */,
 				511BD59925888FA90069F351 /* LazyVStackView.swift in Sources */,
 				511BD59D2588953F0069F351 /* GesturesDemo.swift in Sources */,
 				51971DDB25834D1B00A1A338 /* PickerView.swift in Sources */,
 				511BD56225875B370069F351 /* SliderView.swift in Sources */,
+				513F4B482593382E00D574E4 /* GeometryReaderView.swift in Sources */,
 				51EB34AA2574E9FE00BD5A65 /* TextFieldView.swift in Sources */,
 				51971DDE25835AB700A1A338 /* PickerDemo.swift in Sources */,
 				51E90EFA256F4D0F00BD1E5F /* SceneDelegate.swift in Sources */,
 				511BD55C258713110069F351 /* DatePickerView.swift in Sources */,
 				515E9ABC257F69550097676F /* ToggleView.swift in Sources */,
 				511BD565258763390069F351 /* StepperView.swift in Sources */,
+				5115B1A02591D3BA002AECD8 /* SwiftUIViewDemo.swift in Sources */,
 				5130C657257FAC6400F8AA2F /* OrderModel.swift in Sources */,
 				51971DE125837A2B00A1A338 /* PickerView02.swift in Sources */,
 				51E90F16256F501200BD1E5F /* CountView.swift in Sources */,
 				51780A3A257A30B800834045 /* testModel.swift in Sources */,
+				513F4B3E25932A8E00D574E4 /* DrawingSwiftUIView.swift in Sources */,
 				511BD5B2258997130069F351 /* TableViewTest02.swift in Sources */,
 				511BD5B525899A770069F351 /* TableViewDemo.swift in Sources */,
 				51E90EFC256F4D0F00BD1E5F /* ContentView.swift in Sources */,
 				511BD59625888F4B0069F351 /* LazyHStackView.swift in Sources */,
+				5115B1D425921DB3002AECD8 /* TabBar1.swift in Sources */,
+				5115B1D825921DBD002AECD8 /* TabBar2.swift in Sources */,
 				51592BCB257DD268001C8D40 /* EditButtonView.swift in Sources */,
 				515E9A95257F65BA0097676F /* LinkView.swift in Sources */,
 				511BD59325888F3B0069F351 /* StackDemo.swift in Sources */,
+				5115B1DC25921ED1002AECD8 /* FullDetailView.swift in Sources */,
+				5115B1CE25921D5C002AECD8 /* TableModel.swift in Sources */,
 				511BD5A1258899410069F351 /* DatePickerDemo.swift in Sources */,
 				5115B1572590504A002AECD8 /* EquatableViewTest.swift in Sources */,
 				511BD5AA258996EF0069F351 /* TableViewTest.swift in Sources */,
 				51592BCE257DD2D1001C8D40 /* ButtonViewDemo.swift in Sources */,
+				5115B1BB25921546002AECD8 /* TableView03.swift in Sources */,
 				519DC96E2578E829007C43FD /* TextEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
