@@ -55,6 +55,11 @@
 		51E90F16256F501200BD1E5F /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E90F15256F501200BD1E5F /* CountView.swift */; };
 		51EB34AA2574E9FE00BD5A65 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB34A92574E9FE00BD5A65 /* TextFieldView.swift */; };
 		707600B2259A185B004A77D0 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 707600B1259A185B004A77D0 /* landmarkData.json */; };
+		707600B6259A18D5004A77D0 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600B5259A18D5004A77D0 /* Landmark.swift */; };
+		707600BA259A18E3004A77D0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600B9259A18E3004A77D0 /* ModelData.swift */; };
+		707600BE259A190D004A77D0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600BD259A190D004A77D0 /* CircleImage.swift */; };
+		707600C2259A191A004A77D0 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600C1259A191A004A77D0 /* LandmarkList.swift */; };
+		707600C6259A1926004A77D0 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600C5259A1926004A77D0 /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +125,11 @@
 		51E90F15256F501200BD1E5F /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 		51EB34A92574E9FE00BD5A65 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		707600B1259A185B004A77D0 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		707600B5259A18D5004A77D0 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		707600B9259A18E3004A77D0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		707600BD259A190D004A77D0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		707600C1259A191A004A77D0 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		707600C5259A1926004A77D0 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -412,6 +422,7 @@
 		707600AB259A17C1004A77D0 /* BadgesTest */ = {
 			isa = PBXGroup;
 			children = (
+				707600C5259A1926004A77D0 /* Badge.swift */,
 			);
 			path = BadgesTest;
 			sourceTree = "<group>";
@@ -427,6 +438,7 @@
 		707600AD259A17C2004A77D0 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				707600C1259A191A004A77D0 /* LandmarkList.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -434,6 +446,7 @@
 		707600AE259A17C2004A77D0 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				707600BD259A190D004A77D0 /* CircleImage.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -441,6 +454,8 @@
 		707600AF259A17C2004A77D0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				707600B5259A18D5004A77D0 /* Landmark.swift */,
+				707600B9259A18E3004A77D0 /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -565,10 +580,12 @@
 			files = (
 				513F4B422593325700D574E4 /* HexagonParameters.swift in Sources */,
 				511BD59E2588953F0069F351 /* NavigationBarColorDemo.swift in Sources */,
+				707600BA259A18E3004A77D0 /* ModelData.swift in Sources */,
 				511F19F4257495010000B12D /* TextUIView.swift in Sources */,
 				515E9A8E257F4D250097676F /* MenuView.swift in Sources */,
 				511BD55F2587596D0069F351 /* DatePickerView02.swift in Sources */,
 				511BD57125876D050069F351 /* ProgressTestView.swift in Sources */,
+				707600BE259A190D004A77D0 /* CircleImage.swift in Sources */,
 				51E90EF8256F4D0F00BD1E5F /* AppDelegate.swift in Sources */,
 				51780A32257A184500834045 /* ButtonView.swift in Sources */,
 				5115B19C25919E21002AECD8 /* AnimationDemo.swift in Sources */,
@@ -586,6 +603,8 @@
 				5115B1A02591D3BA002AECD8 /* SwiftUIViewDemo.swift in Sources */,
 				5130C657257FAC6400F8AA2F /* OrderModel.swift in Sources */,
 				51971DE125837A2B00A1A338 /* PickerView02.swift in Sources */,
+				707600C6259A1926004A77D0 /* Badge.swift in Sources */,
+				707600B6259A18D5004A77D0 /* Landmark.swift in Sources */,
 				51E90F16256F501200BD1E5F /* CountView.swift in Sources */,
 				51780A3A257A30B800834045 /* testModel.swift in Sources */,
 				513F4B3E25932A8E00D574E4 /* DrawingSwiftUIView.swift in Sources */,
@@ -599,6 +618,7 @@
 				515E9A95257F65BA0097676F /* LinkView.swift in Sources */,
 				511BD59325888F3B0069F351 /* StackDemo.swift in Sources */,
 				5115B1DC25921ED1002AECD8 /* FullDetailView.swift in Sources */,
+				707600C2259A191A004A77D0 /* LandmarkList.swift in Sources */,
 				5115B1CE25921D5C002AECD8 /* TableModel.swift in Sources */,
 				511BD5A1258899410069F351 /* DatePickerDemo.swift in Sources */,
 				5115B1572590504A002AECD8 /* EquatableViewTest.swift in Sources */,
