@@ -36,7 +36,7 @@ struct AnimationDemo: View {
                         
                     case 2 :
                         HStack{
-                            NavigationLink("03", destination: TableViewTest())
+                            NavigationLink("官方Demo", destination: TableViewTest())
                                 .frame(width: 260, height: 50)
                                 .foregroundColor(.pink)
                         }

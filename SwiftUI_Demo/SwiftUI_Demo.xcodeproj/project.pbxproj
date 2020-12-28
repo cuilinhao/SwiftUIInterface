@@ -173,8 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				5115B19B25919E21002AECD8 /* AnimationDemo.swift */,
-				513F4B3D25932A8E00D574E4 /* DrawingSwiftUIView.swift */,
-				513F4B412593325700D574E4 /* HexagonParameters.swift */,
+				707600AA259A1689004A77D0 /* DrawingPathsAndShapes */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -393,6 +392,15 @@
 				51E90F15256F501200BD1E5F /* CountView.swift */,
 			);
 			path = Introduction;
+			sourceTree = "<group>";
+		};
+		707600AA259A1689004A77D0 /* DrawingPathsAndShapes */ = {
+			isa = PBXGroup;
+			children = (
+				513F4B3D25932A8E00D574E4 /* DrawingSwiftUIView.swift */,
+				513F4B412593325700D574E4 /* HexagonParameters.swift */,
+			);
+			path = DrawingPathsAndShapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
