@@ -60,6 +60,8 @@
 		707600BE259A190D004A77D0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600BD259A190D004A77D0 /* CircleImage.swift */; };
 		707600C2259A191A004A77D0 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600C1259A191A004A77D0 /* LandmarkList.swift */; };
 		707600C6259A1926004A77D0 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600C5259A1926004A77D0 /* Badge.swift */; };
+		707600CA259A1E4A004A77D0 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600C9259A1E4A004A77D0 /* LandmarkDetail.swift */; };
+		707600CE259A1E5A004A77D0 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600CD259A1E5A004A77D0 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +132,8 @@
 		707600BD259A190D004A77D0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		707600C1259A191A004A77D0 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		707600C5259A1926004A77D0 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		707600C9259A1E4A004A77D0 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		707600CD259A1E5A004A77D0 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -439,6 +443,8 @@
 			isa = PBXGroup;
 			children = (
 				707600C1259A191A004A77D0 /* LandmarkList.swift */,
+				707600CD259A1E5A004A77D0 /* LandmarkRow.swift */,
+				707600C9259A1E4A004A77D0 /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -616,9 +622,11 @@
 				5115B1D825921DBD002AECD8 /* TabBar2.swift in Sources */,
 				51592BCB257DD268001C8D40 /* EditButtonView.swift in Sources */,
 				515E9A95257F65BA0097676F /* LinkView.swift in Sources */,
+				707600CE259A1E5A004A77D0 /* LandmarkRow.swift in Sources */,
 				511BD59325888F3B0069F351 /* StackDemo.swift in Sources */,
 				5115B1DC25921ED1002AECD8 /* FullDetailView.swift in Sources */,
 				707600C2259A191A004A77D0 /* LandmarkList.swift in Sources */,
+				707600CA259A1E4A004A77D0 /* LandmarkDetail.swift in Sources */,
 				5115B1CE25921D5C002AECD8 /* TableModel.swift in Sources */,
 				511BD5A1258899410069F351 /* DatePickerDemo.swift in Sources */,
 				5115B1572590504A002AECD8 /* EquatableViewTest.swift in Sources */,
