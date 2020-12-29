@@ -42,6 +42,8 @@
 		515E9ABC257F69550097676F /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E9ABB257F69550097676F /* ToggleView.swift */; };
 		51780A32257A184500834045 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51780A31257A184500834045 /* ButtonView.swift */; };
 		51780A3A257A30B800834045 /* testModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51780A39257A30B800834045 /* testModel.swift */; };
+		518619A8259B0105002BCCA8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518619A7259B0105002BCCA8 /* MapView.swift */; };
+		518619AC259B0116002BCCA8 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518619AB259B0116002BCCA8 /* FavoriteButton.swift */; };
 		51971DDB25834D1B00A1A338 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51971DDA25834D1B00A1A338 /* PickerView.swift */; };
 		51971DDE25835AB700A1A338 /* PickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51971DDD25835AB700A1A338 /* PickerDemo.swift */; };
 		51971DE125837A2B00A1A338 /* PickerView02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51971DE025837A2B00A1A338 /* PickerView02.swift */; };
@@ -112,6 +114,8 @@
 		515E9ABB257F69550097676F /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		51780A31257A184500834045 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		51780A39257A30B800834045 /* testModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testModel.swift; sourceTree = "<group>"; };
+		518619A7259B0105002BCCA8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		518619AB259B0116002BCCA8 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		51971DDA25834D1B00A1A338 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		51971DDD25835AB700A1A338 /* PickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemo.swift; sourceTree = "<group>"; };
 		51971DE025837A2B00A1A338 /* PickerView02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView02.swift; sourceTree = "<group>"; };
@@ -453,6 +457,8 @@
 			isa = PBXGroup;
 			children = (
 				707600BD259A190D004A77D0 /* CircleImage.swift */,
+				518619A7259B0105002BCCA8 /* MapView.swift */,
+				518619AB259B0116002BCCA8 /* FavoriteButton.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -627,6 +633,7 @@
 				5115B1DC25921ED1002AECD8 /* FullDetailView.swift in Sources */,
 				707600C2259A191A004A77D0 /* LandmarkList.swift in Sources */,
 				707600CA259A1E4A004A77D0 /* LandmarkDetail.swift in Sources */,
+				518619A8259B0105002BCCA8 /* MapView.swift in Sources */,
 				5115B1CE25921D5C002AECD8 /* TableModel.swift in Sources */,
 				511BD5A1258899410069F351 /* DatePickerDemo.swift in Sources */,
 				5115B1572590504A002AECD8 /* EquatableViewTest.swift in Sources */,
@@ -634,6 +641,7 @@
 				51592BCE257DD2D1001C8D40 /* ButtonViewDemo.swift in Sources */,
 				5115B1BB25921546002AECD8 /* TableView03.swift in Sources */,
 				519DC96E2578E829007C43FD /* TextEditorView.swift in Sources */,
+				518619AC259B0116002BCCA8 /* FavoriteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
