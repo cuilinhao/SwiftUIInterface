@@ -15,7 +15,8 @@ struct FavoriteButton: View {
         Button {
             isSet.toggle()
         } label: {
-            Image(systemName: isSet ? "start.fill" : "star")
+            //字母写错了，不显示
+            Image(systemName: isSet ? "star.fill" : "star")
                 .foregroundColor(isSet ? Color.yellow : Color.gray)
         }
 

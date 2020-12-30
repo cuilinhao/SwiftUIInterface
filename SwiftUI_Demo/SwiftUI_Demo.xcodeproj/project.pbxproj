@@ -44,6 +44,7 @@
 		51780A3A257A30B800834045 /* testModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51780A39257A30B800834045 /* testModel.swift */; };
 		518619A8259B0105002BCCA8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518619A7259B0105002BCCA8 /* MapView.swift */; };
 		518619AC259B0116002BCCA8 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518619AB259B0116002BCCA8 /* FavoriteButton.swift */; };
+		518619C7259C57B2002BCCA8 /* TestDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518619C6259C57B2002BCCA8 /* TestDemo.swift */; };
 		51971DDB25834D1B00A1A338 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51971DDA25834D1B00A1A338 /* PickerView.swift */; };
 		51971DDE25835AB700A1A338 /* PickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51971DDD25835AB700A1A338 /* PickerDemo.swift */; };
 		51971DE125837A2B00A1A338 /* PickerView02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51971DE025837A2B00A1A338 /* PickerView02.swift */; };
@@ -116,6 +117,7 @@
 		51780A39257A30B800834045 /* testModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testModel.swift; sourceTree = "<group>"; };
 		518619A7259B0105002BCCA8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		518619AB259B0116002BCCA8 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		518619C6259C57B2002BCCA8 /* TestDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDemo.swift; sourceTree = "<group>"; };
 		51971DDA25834D1B00A1A338 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		51971DDD25835AB700A1A338 /* PickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemo.swift; sourceTree = "<group>"; };
 		51971DE025837A2B00A1A338 /* PickerView02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView02.swift; sourceTree = "<group>"; };
@@ -417,6 +419,7 @@
 		707600AA259A1689004A77D0 /* DrawingPathsAndShapes */ = {
 			isa = PBXGroup;
 			children = (
+				518619C6259C57B2002BCCA8 /* TestDemo.swift */,
 				707600AB259A17C1004A77D0 /* BadgesTest */,
 				707600AD259A17C2004A77D0 /* Landmarks */,
 				707600AF259A17C2004A77D0 /* Model */,
@@ -612,6 +615,7 @@
 				511BD55C258713110069F351 /* DatePickerView.swift in Sources */,
 				515E9ABC257F69550097676F /* ToggleView.swift in Sources */,
 				511BD565258763390069F351 /* StepperView.swift in Sources */,
+				518619C7259C57B2002BCCA8 /* TestDemo.swift in Sources */,
 				5115B1A02591D3BA002AECD8 /* SwiftUIViewDemo.swift in Sources */,
 				5130C657257FAC6400F8AA2F /* OrderModel.swift in Sources */,
 				51971DE125837A2B00A1A338 /* PickerView02.swift in Sources */,

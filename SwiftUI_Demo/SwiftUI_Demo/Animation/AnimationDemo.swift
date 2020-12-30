@@ -13,8 +13,6 @@ struct AnimationDemo: View {
     
     var body: some View {
         
-        Text("Hello, World!")
-        
         ScrollView {
             LazyVStack(alignment: .leading){
                 ForEach(plans.indices) { index in
@@ -36,7 +34,7 @@ struct AnimationDemo: View {
                         
                     case 2 :
                         HStack{
-                            NavigationLink("官方Demo", destination: TableViewTest())
+                            NavigationLink("官方Demo", destination: TestDemo())
                                 .frame(width: 260, height: 50)
                                 .foregroundColor(.pink)
                         }

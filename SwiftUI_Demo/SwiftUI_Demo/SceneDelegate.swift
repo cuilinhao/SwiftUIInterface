@@ -12,7 +12,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
@@ -25,37 +24,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             
-            //---
             //let tabBar = TabBarState()
-            window.rootViewController = UIHostingController(rootView: contentView.environmentObject(TableModel()))
+            window.rootViewController = UIHostingController(rootView: contentView.environmentObject(ModelData()))
             self.window = window
             window.makeKeyAndVisible()
-            
-            //MARK: 监听TabBarState 状态
-            //tabBar.$hidden.receive(subscriber: anysu)
-//            tabBar.$hidden.receive(subscriber: AnySubscriber(receiveSubscription: { (sub) in
-//                            sub.request(.unlimited)
-//                        }, receiveValue: { (value) -> Subscribers.Demand in
-//                            self.tabBarHidden(hidden: value)
-//                            return .none
-//                        }))
-            
         }
     }
-
-    //MARK:--------------
-    
-    func tabBarhidden(hidden: Bool) {
-        
-        for viewController in self.window!.rootViewController!.children {
-            let tabBarController = viewController as! UITabBarController
-            if tabBarController.tabBar.isHidden !=  hidden {
-                tabBarController.tabBar.isHidden = hidden
-            }
-            return
-        }
-    }
-    
     
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

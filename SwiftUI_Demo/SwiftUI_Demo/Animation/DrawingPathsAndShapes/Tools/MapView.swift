@@ -14,8 +14,6 @@ struct MapView: View {
     @State private var region = MKCoordinateRegion()
     
     var body: some View {
-        
-        Text("Hello, World!")
         Map(coordinateRegion: $region)
             .onAppear {
                 setRegion(coordinate)
