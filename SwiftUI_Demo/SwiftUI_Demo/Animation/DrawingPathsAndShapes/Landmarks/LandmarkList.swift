@@ -28,8 +28,12 @@ struct LandmarkList: View {
                 }
                 
                 ForEach(filteredLandmarks) { landmark in
+                    
+                    //跳转到 LandmarkDetail  显示的内容是LandmarkRow
                     NavigationLink(destination: LandmarkDetail(landMark: landmark)) {
-                        LandmarkRow(landmark: landmark)
+                        //LandmarkRow(landmark: landmark)
+                        LandmarkRow(tt: landmark, tt2: landmark, tt3: landmark)
+                        
                     }
                 }
             }
