@@ -69,14 +69,62 @@ struct SwiftUIViewDemo: View {
                         self.___configurePushVc({
                             return StackDemo()
                         }, title: "StackDemo")
+                    case 6:
+                        self.___configurePushVc({
+                            return ProgressTestView()
+                        }, title: "ProgressTestView")
+                    case 7:
+                        self.___configurePushVc({
+                            return StepperView()
+                        }, title: "StepperView")
+                    case 8:
+                        self.___configurePushVc({
+                            return SliderView()
+                        }, title: "SliderView")
+                    case 9:
+                        self.___configurePushVc({
+                            return DatePickerDemo()
+                        }, title: "DatePickerDemo")
+                        //-----------------------------
+                        
+                    case 10:
+                        //let ss = TableViewDemo()
+                        self.___configurePushVc({
+                            return ToggleView()
+                        }, title: "ToggleView")
+                    case 11:
+                        self.___configurePushVc({
+                            return TextUIView()
+                        }, title: "TextUIView")
+                    case 12:
+                        self.___configurePushVc({
+                            return TextFieldView()
+                        }, title: "TextFieldView")
+                    case 13:
+                        self.___configurePushVc({
+                            return TextEditorView()
+                        }, title: "TextEditorView")
+                    case 14:
+                        self.___configurePushVc({
+                            return ButtonViewDemo()
+                        }, title: "ButtonViewDemo")
+                    case 15:
+                        self.___configurePushVc({
+                            return MenuView()
+                        }, title: "MenuView")
+
+                    case 16:
+                        self.___configurePushVc({
+                            return CountView()
+                        }, title: "CountView")
                     default:
                         HStack {
                             Image("111")
                                 .resizable()
                                 .frame(width: 50, height: 50)
                                 .cornerRadius(25)
-                            Text("AnimationDemo")
-                                .foregroundColor(Color.pink)
+                            Text("otherTest")
+                                .foregroundColor(Color.purple)
                                 .padding()
                         }
                     }
