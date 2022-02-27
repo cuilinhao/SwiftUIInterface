@@ -57,6 +57,7 @@
 		51E90F04256F4D1100BD1E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E90F02256F4D1100BD1E5F /* LaunchScreen.storyboard */; };
 		51E90F16256F501200BD1E5F /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E90F15256F501200BD1E5F /* CountView.swift */; };
 		51EB34AA2574E9FE00BD5A65 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB34A92574E9FE00BD5A65 /* TextFieldView.swift */; };
+		639DDD2727CB65EA00D5E802 /* VehicleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DDD2627CB65EA00D5E802 /* VehicleSwiftUIView.swift */; };
 		707600B2259A185B004A77D0 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 707600B1259A185B004A77D0 /* landmarkData.json */; };
 		707600B6259A18D5004A77D0 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600B5259A18D5004A77D0 /* Landmark.swift */; };
 		707600BA259A18E3004A77D0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600B9259A18E3004A77D0 /* ModelData.swift */; };
@@ -132,6 +133,7 @@
 		51E90F05256F4D1100BD1E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51E90F15256F501200BD1E5F /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 		51EB34A92574E9FE00BD5A65 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		639DDD2627CB65EA00D5E802 /* VehicleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSwiftUIView.swift; sourceTree = "<group>"; };
 		707600B1259A185B004A77D0 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		707600B5259A18D5004A77D0 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		707600B9259A18E3004A77D0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -198,20 +200,6 @@
 				707600AA259A1689004A77D0 /* DrawingPathsAndShapes */,
 			);
 			path = Animation;
-			sourceTree = "<group>";
-		};
-		511BD5A7258996B90069F351 /* 未命名文件夹 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "未命名文件夹";
-			sourceTree = "<group>";
-		};
-		511BD5A8258996B90069F351 /* 未命名文件夹的副本 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "未命名文件夹的副本";
 			sourceTree = "<group>";
 		};
 		511BD5BC2589A70B0069F351 /* SwiftUI_DemoTests */ = {
@@ -360,8 +348,11 @@
 		51E90EF6256F4D0F00BD1E5F /* SwiftUI_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				511BD5A7258996B90069F351 /* 未命名文件夹 */,
-				511BD5A8258996B90069F351 /* 未命名文件夹的副本 */,
+				51E90EF7256F4D0F00BD1E5F /* AppDelegate.swift */,
+				51E90EF9256F4D0F00BD1E5F /* SceneDelegate.swift */,
+				51E90EFB256F4D0F00BD1E5F /* ContentView.swift */,
+				5115B19F2591D3BA002AECD8 /* SwiftUIViewDemo.swift */,
+				639DDD2527CB65C700D5E802 /* vehicleTest */,
 				511BD5A4258996B90069F351 /* GeometryReader */,
 				511BD5A6258996B90069F351 /* Animation */,
 				511BD5A3258996B90069F351 /* EquatableView */,
@@ -381,10 +372,6 @@
 				511F19EC257494B90000B12D /* Link */,
 				51E90F14256F4ED400BD1E5F /* Introduction */,
 				51E90F0C256F4D4300BD1E5F /* Other */,
-				51E90EF7256F4D0F00BD1E5F /* AppDelegate.swift */,
-				51E90EF9256F4D0F00BD1E5F /* SceneDelegate.swift */,
-				51E90EFB256F4D0F00BD1E5F /* ContentView.swift */,
-				5115B19F2591D3BA002AECD8 /* SwiftUIViewDemo.swift */,
 				51E90EFF256F4D1100BD1E5F /* Preview Content */,
 			);
 			path = SwiftUI_Demo;
@@ -414,6 +401,14 @@
 				51E90F15256F501200BD1E5F /* CountView.swift */,
 			);
 			path = Introduction;
+			sourceTree = "<group>";
+		};
+		639DDD2527CB65C700D5E802 /* vehicleTest */ = {
+			isa = PBXGroup;
+			children = (
+				639DDD2627CB65EA00D5E802 /* VehicleSwiftUIView.swift */,
+			);
+			path = vehicleTest;
 			sourceTree = "<group>";
 		};
 		707600AA259A1689004A77D0 /* DrawingPathsAndShapes */ = {
@@ -630,6 +625,7 @@
 				511BD59625888F4B0069F351 /* LazyHStackView.swift in Sources */,
 				5115B1D425921DB3002AECD8 /* TabBar1.swift in Sources */,
 				5115B1D825921DBD002AECD8 /* TabBar2.swift in Sources */,
+				639DDD2727CB65EA00D5E802 /* VehicleSwiftUIView.swift in Sources */,
 				51592BCB257DD268001C8D40 /* EditButtonView.swift in Sources */,
 				515E9A95257F65BA0097676F /* LinkView.swift in Sources */,
 				707600CE259A1E5A004A77D0 /* LandmarkRow.swift in Sources */,
