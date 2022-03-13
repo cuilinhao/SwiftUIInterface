@@ -37,7 +37,6 @@ struct PickerDemo: View {
                         }
                     case "2":
                         HStack{
-                            
                             //NavigationLink("01", destination: PickerView())
                             NavigationLink(
                                 destination: DatePickerView02(),
@@ -50,7 +49,6 @@ struct PickerDemo: View {
                                         .foregroundColor(Color.red)
                                         .scaleEffect(1.0, anchor: .leading)
                                         .border(Color.red)
-                                    
                                 })
                         }
                         
@@ -65,7 +63,6 @@ struct PickerDemo: View {
             .navigationBarTitle("tt", displayMode: .inline)
             //.navigationBarTitle("tt", displayMode: .large)
     }
-    
 }
 
 struct PickerDemo_Previews: PreviewProvider {
