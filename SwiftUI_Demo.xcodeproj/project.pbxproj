@@ -59,6 +59,10 @@
 		51E90F16256F501200BD1E5F /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E90F15256F501200BD1E5F /* CountView.swift */; };
 		51EB34AA2574E9FE00BD5A65 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB34A92574E9FE00BD5A65 /* TextFieldView.swift */; };
 		6332CFBF27DE052D00AAF40F /* SwiftUIList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6332CFBE27DE052D00AAF40F /* SwiftUIList.plist */; };
+		6332CFC127DE0A0100AAF40F /* plans.json in Resources */ = {isa = PBXBuildFile; fileRef = 6332CFC027DE0A0100AAF40F /* plans.json */; };
+		6332CFC327DE0A2100AAF40F /* PlanModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332CFC227DE0A2000AAF40F /* PlanModle.swift */; };
+		6332CFC527DE0A4E00AAF40F /* bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332CFC427DE0A4E00AAF40F /* bundle-Decodable.swift */; };
+		6332CFC927DE18FA00AAF40F /* SwiftUITestupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332CFC827DE18FA00AAF40F /* SwiftUITestupView.swift */; };
 		639DDD2727CB65EA00D5E802 /* VehicleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DDD2627CB65EA00D5E802 /* VehicleSwiftUIView.swift */; };
 		639DDD2B27CB782D00D5E802 /* SwiftTableViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DDD2A27CB782D00D5E802 /* SwiftTableViewDemo.swift */; };
 		639DDD3027CB8AFB00D5E802 /* Bundel+Codeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DDD2F27CB8AFB00D5E802 /* Bundel+Codeable.swift */; };
@@ -141,6 +145,10 @@
 		51E90F15256F501200BD1E5F /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 		51EB34A92574E9FE00BD5A65 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		6332CFBE27DE052D00AAF40F /* SwiftUIList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SwiftUIList.plist; sourceTree = "<group>"; };
+		6332CFC027DE0A0100AAF40F /* plans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plans.json; sourceTree = "<group>"; };
+		6332CFC227DE0A2000AAF40F /* PlanModle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanModle.swift; sourceTree = "<group>"; };
+		6332CFC427DE0A4E00AAF40F /* bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "bundle-Decodable.swift"; sourceTree = "<group>"; };
+		6332CFC827DE18FA00AAF40F /* SwiftUITestupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestupView.swift; sourceTree = "<group>"; };
 		639DDD2627CB65EA00D5E802 /* VehicleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSwiftUIView.swift; sourceTree = "<group>"; };
 		639DDD2A27CB782D00D5E802 /* SwiftTableViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTableViewDemo.swift; sourceTree = "<group>"; };
 		639DDD2F27CB8AFB00D5E802 /* Bundel+Codeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundel+Codeable.swift"; sourceTree = "<group>"; };
@@ -382,6 +390,7 @@
 				51E90EF9256F4D0F00BD1E5F /* SceneDelegate.swift */,
 				51E90EFB256F4D0F00BD1E5F /* ContentView.swift */,
 				639DDD2A27CB782D00D5E802 /* SwiftTableViewDemo.swift */,
+				6332CFC827DE18FA00AAF40F /* SwiftUITestupView.swift */,
 				5115B19F2591D3BA002AECD8 /* SwiftUIViewDemo.swift */,
 				639DDD2C27CB8A7D00D5E802 /* Tools */,
 				639DDD2E27CB8AC500D5E802 /* Classes */,
@@ -428,6 +437,9 @@
 		639DDD2C27CB8A7D00D5E802 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				6332CFC427DE0A4E00AAF40F /* bundle-Decodable.swift */,
+				6332CFC227DE0A2000AAF40F /* PlanModle.swift */,
+				6332CFC027DE0A0100AAF40F /* plans.json */,
 				639DDD2F27CB8AFB00D5E802 /* Bundel+Codeable.swift */,
 			);
 			path = Tools;
@@ -625,6 +637,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6332CFC127DE0A0100AAF40F /* plans.json in Resources */,
 				6332CFBF27DE052D00AAF40F /* SwiftUIList.plist in Resources */,
 				51E90F04256F4D1100BD1E5F /* LaunchScreen.storyboard in Resources */,
 				707600B2259A185B004A77D0 /* landmarkData.json in Resources */,
@@ -698,6 +711,7 @@
 				513F4B422593325700D574E4 /* HexagonParameters.swift in Sources */,
 				511BD59E2588953F0069F351 /* NavigationBarColorDemo.swift in Sources */,
 				707600BA259A18E3004A77D0 /* ModelData.swift in Sources */,
+				6332CFC327DE0A2100AAF40F /* PlanModle.swift in Sources */,
 				511F19F4257495010000B12D /* TextUIView.swift in Sources */,
 				639DDD3027CB8AFB00D5E802 /* Bundel+Codeable.swift in Sources */,
 				515E9A8E257F4D250097676F /* MenuView.swift in Sources */,
@@ -707,8 +721,10 @@
 				51E90EF8256F4D0F00BD1E5F /* AppDelegate.swift in Sources */,
 				51780A32257A184500834045 /* ButtonView.swift in Sources */,
 				5115B19C25919E21002AECD8 /* AnimationDemo.swift in Sources */,
+				6332CFC527DE0A4E00AAF40F /* bundle-Decodable.swift in Sources */,
 				511BD59925888FA90069F351 /* LazyVStackView.swift in Sources */,
 				511BD59D2588953F0069F351 /* GesturesDemo.swift in Sources */,
+				6332CFC927DE18FA00AAF40F /* SwiftUITestupView.swift in Sources */,
 				51971DDB25834D1B00A1A338 /* PickerView.swift in Sources */,
 				511BD56225875B370069F351 /* SliderView.swift in Sources */,
 				513F4B482593382E00D574E4 /* GeometryReaderView.swift in Sources */,
