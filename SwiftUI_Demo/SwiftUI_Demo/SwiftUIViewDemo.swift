@@ -12,11 +12,7 @@ struct SwiftUIViewDemo: View {
     var plans : [String] = ["1", "2","3","4","5","6","1", "2","3","4","5","6","1", "2","3","4","5","6","1", "2","3","4","5","6","1", "2","3","4","5","6","1", "2","3","4","5","6",]
     
     @State var isActiveTest : Bool = true
-    
-    
     var body: some View {
-        
-        Text("Hello, World!")
         ScrollView {
             
             LazyVStack(alignment: .leading){
@@ -24,105 +20,177 @@ struct SwiftUIViewDemo: View {
                     
                     switch index {
                     case 0 :
-                        //NavigationLink("01", destination: TableViewTest())
-                        HStack{
+                        NavigationLink(
+                            destination: AnimationDemo(),  label: {
+                                Image("111")
+                                    .resizable()
+                                    .frame(width: 50, height: 50)
+                                    .cornerRadius(25)
+                                Text("GeometryReaderView")
+                                    .foregroundColor(Color.purple)
+                                    .padding()
+                            })
+                    case 1:
+                        HStack(spacing: 20) {
                             Image("111")
                                 .resizable()
                                 .frame(width: 50, height: 50)
                                 .cornerRadius(25)
-                            
-                            NavigationLink(destination: AnimationDemo(), label:{
-                                Text("AnimationDemo")
-                                    .foregroundColor(Color.pink)
-                                    .padding()
-                            })
+                            Button("this is a button") {
+                                print("test")
+                            }
+                            .padding()
                         }
-                    case 1 :
-                        //NavigationLink("01", destination: TableViewTest())
-                        HStack{
+                        .background(Color.green)
+                        //.frame(width: UIScreen.main.bounds.size.width, height: 30)
+                    case 2:
+                        self.configurePushVc()
+                    case 3:
+                        NavigationLink(destination: VehicleSwiftUIView(fontSize: 30, foregroundColor: .yellow, backgroundColor: .blue, content: {
+                            
+                            Button("test Vehicle"){
+                                print("test Vehicle")
+                            }
+                        })) {
                             Image("111")
                                 .resizable()
                                 .frame(width: 50, height: 50)
                                 .cornerRadius(25)
-                            
-                            NavigationLink(destination: EquatableViewTest(), label:{
-                                Text("EquatableViewTest")
-                                    .foregroundColor(Color.pink)
-                                    .padding()
-                            })
+                            Text("VehicleSwiftUIView")
+                                .foregroundColor(.purple)
+                                .padding()
                         }
-                    case 2 :
-                        //NavigationLink("01", destination: TableViewTest())
-                    cellView()
-                    case 3 :
-                        //NavigationLink("AnimationDemo", destination: AnimationDemo())
-                        HStack{
-                            Image("111")
-                                .resizable()
-                                .frame(width: 50, height: 50)
-                                .cornerRadius(25)
-                            
-                            NavigationLink(destination: TableViewDemo(), label:{
-                                Text("TableViewDemo")
-                                    .foregroundColor(Color.pink)
-                                    .padding()
-                            })
+                    case 4:
+                        //let ss = TableViewDemo()
+                        self.__configurePushVc {
+                            return TableViewDemo()
                         }
+                    case 5:
+                        self.___configurePushVc({
+                            return StackDemo()
+                        }, title: "StackDemo")
+                    case 6:
+                        self.___configurePushVc({
+                            return ProgressTestView()
+                        }, title: "ProgressTestView")
+                    case 7:
+                        self.___configurePushVc({
+                            return StepperView()
+                        }, title: "StepperView")
+                    case 8:
+                        self.___configurePushVc({
+                            return SliderView()
+                        }, title: "SliderView")
+                    case 9:
+                        self.___configurePushVc({
+                            return DatePickerDemo()
+                        }, title: "DatePickerDemo")
+                        //-----------------------------
                         
-                    case 4 :
-                        
-                        
-                        HStack{
+                    case 10:
+                        //let ss = TableViewDemo()
+                        self.___configurePushVc({
+                            return ToggleView()
+                        }, title: "ToggleView")
+                    case 11:
+                        self.___configurePushVc({
+                            return TextUIView()
+                        }, title: "TextUIView")
+                    case 12:
+                        self.___configurePushVc({
+                            return TextFieldView()
+                        }, title: "TextFieldView")
+                    case 13:
+                        self.___configurePushVc({
+                            return TextEditorView()
+                        }, title: "TextEditorView")
+                    case 14:
+                        self.___configurePushVc({
+                            return ButtonViewDemo()
+                        }, title: "ButtonViewDemo")
+                    case 15:
+                        self.___configurePushVc({
+                            return MenuView()
+                        }, title: "MenuView")
+
+                    case 16:
+                        self.___configurePushVc({
+                            return CountView()
+                        }, title: "CountView")
+                    case 17:
+                        self.___configurePushVc({
+                            return
+                        }, title: "vehicleTest")
+                    default:
+                        HStack {
                             Image("111")
                                 .resizable()
                                 .frame(width: 50, height: 50)
                                 .cornerRadius(25)
-                            
-                            NavigationLink(destination: StackDemo(), label:{
-                                Text("StackDemo")
-                                    .foregroundColor(Color.pink)
-                                    .padding()
-                            })
-                        }
-                        
-                        
-                    case 5 :
-                        HStack{
-                            Image("111")
-                                .resizable()
-                                .frame(width: 50, height: 50)
-                                .cornerRadius(25)
-                            
-                            
-                            NavigationLink(destination: GesturesDemo(isTap: true, location: CGPoint(x: 10, y: 10), isPush: $isActiveTest), label:{
-                                Text("GesturesDemo")
-                                    .foregroundColor(Color.pink)
-                                    .padding()
-                            })
-                        }
-                    default :
-                        HStack{
-                            Image("111")
-                                .resizable()
-                                .frame(width: 50, height: 50)
-                                .cornerRadius(25)
-                            
-                            NavigationLink(destination: ProgressTestView(), label:{
-                                Text("ProgressTestView")
-                                    .foregroundColor(Color.pink)
-                                    .padding()
-                            })
+                            Text("otherTest")
+                                .foregroundColor(Color.purple)
+                                .padding()
                         }
                     }
                 }
             }
         }
     }
-    
-    
       
 }
 
+extension SwiftUIViewDemo {
+    
+    //一个view的实例作为一个参数进行传递
+    func configurePushVc() -> some View {
+        VStack {
+            NavigationLink(
+                destination: AnimationDemo(),  label: {
+                    Image("111")
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                        .cornerRadius(25)
+                    Text("GeometryReaderView")
+                        .foregroundColor(Color.purple)
+                        .padding()
+                })
+        }
+    }
+    
+    //一个view的实例作为一个参数进行传递
+    func __configurePushVc<Content: View>(_ vv: () -> Content) -> some View {
+        VStack {
+            NavigationLink(
+                destination: vv,  label: {
+                    Image("111")
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                        .cornerRadius(25)
+                    Text("TableViewDemo")
+                        .foregroundColor(Color.purple)
+                        .padding()
+                })
+        }
+    }
+    
+    
+    //一个view的实例作为一个参数进行传递
+    func ___configurePushVc<Content: View>(_ vv: () -> Content, title: String) -> some View {
+        VStack {
+            NavigationLink(
+                destination: vv,  label: {
+                    Image("111")
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                        .cornerRadius(25)
+                    Text(title)
+                        .foregroundColor(Color.purple)
+                        .padding()
+                })
+        }
+    }
+    
+}
 
 @ViewBuilder func cellView() -> some View {
     

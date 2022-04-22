@@ -14,7 +14,7 @@ import SwiftUI
  有时候我们不需要真正区别SwiftUI，或者我们想要忽略数据中的一些变化，这正是我们可以使用EquatableView结构的地方。EquatableView结构是一个视图的包装器，它也遵循视图协议。要使用EquatableView，你需要做的就是让你的视图符合Equatable协议。让我们看一个简单的例子。
  
  */
-
+//dsdsd
 struct EquatableViewTest: View {
     var body: some View {
         Text("Hello, World!")

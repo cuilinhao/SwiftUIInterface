@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var plan : [String] = ["01","02","03"]
+    var plan : [String] = ["01","02","03","04"]
     
     //TextUIView
     var classArray:[AnyObject] = [CountView(),TextUIView(),TextUIView()] as [AnyObject]
@@ -32,7 +32,6 @@ struct ContentView: View {
                                     .resizable()
                                     .frame(width: 100, height: 100)
                                     .cornerRadius(50)
-                                
                                 Text("tap me Test")
                             })
                         
@@ -40,7 +39,7 @@ struct ContentView: View {
                         
                         //NavigationLink(plan, destination: TextUIView())
                         NavigationLink(
-                            destination: TextUIView(),
+                            destination: SwiftTableViewDemo(),
                             label: {
                                 Image("222")
                                     .resizable()
@@ -48,7 +47,7 @@ struct ContentView: View {
                                     .frame(width: 100, height: 100)
                                     .cornerRadius(50)
                                 
-                                Text("tap me Test")
+                                Text("SwiftTableViewDemo")
                             })
                         
                     case "03":
@@ -56,7 +55,7 @@ struct ContentView: View {
                         NavigationLink(
                             destination: TextFieldView(),
                             label: {
-                                Image("111")
+                                Image("222")
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)
@@ -64,6 +63,16 @@ struct ContentView: View {
                                 
                                 Text("tap me Test")
                             })
+                    case "04":
+                        NavigationLink(destination: PickerDemo(), label: {
+                            Image("111")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 100, height: 100)
+                                .cornerRadius(50)
+                            
+                            Text("tap me Test")
+                        })
                     default:
                         NavigationLink(plan, destination: TextFieldView())
                     }
@@ -81,7 +90,7 @@ struct ContentView: View {
 
 
 /** 设置navigationBar 颜色 */
- struct pf_navigationTitleColor2:ViewModifier {
+ struct pf_navigationTitleColor2: ViewModifier {
     var bgColor:UIColor
     var fontColor:UIColor = .purple
     var fontSize:CGFloat
