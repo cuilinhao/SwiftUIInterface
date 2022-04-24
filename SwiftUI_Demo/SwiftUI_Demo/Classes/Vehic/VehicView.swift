@@ -14,37 +14,55 @@ struct VehicView: View {
         var body: some View {
             GeometryReader { geo in
                 VStack {
-                    VStack(alignment: .leading) {
+                    ZStack {
+                        Text("haha")
+                            .background(Color.green)
+                            .frame(width: geo.size.width - 50, height: 400, alignment: .center)
+                            .cornerRadius(40, corners: .allCorners)
                         Image("111")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 60, height: 60)
-                            .padding(.top, 35)
-                            .padding(.leading, 25)
-                        Text("新功能【上门补胎】")
-                            .font(.system(size: 20))
-                            .foregroundColor(.black)
-                            .padding(.leading, 25)
-                            .padding(.top, 20)
+                            .background(Color.green)
+                            .frame(width: geo.size.width - 50, height: 400, alignment: .center)
+                            .cornerRadius(40, corners: .allCorners)
+                        VStack(alignment: .leading) {
+                            Image("111")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 60, height: 60)
+                                .padding(.top, 35)
+                                .padding(.leading, 25)
+                            Text("新功能【上门补胎】")
+                                .font(.system(size: 20))
+                                .foregroundColor(.black)
+                                .padding(.leading, 25)
+                                .padding(.top, 20)
 
-                        Text("点击后可发起补胎服务，技师会在约定时间驾驶移动服务车到达车辆所在位置。整个服务进程可以通过NIO App维保预约单查看。")
-                            .font(.system(size: 20))
-                            .foregroundColor(.black)
-                            .padding(.leading, 25)
-                            .padding(.top, 10)
-                            .padding(.trailing, 25)
+                            Text("点击后可发起补胎服务，技师会在约定时间驾驶移动服务车到达车辆所在位置。整个服务进程可以通过NIO App维保预约单查看。")
+                                .font(.system(size: 20))
+                                .foregroundColor(.black)
+                                .padding(.leading, 25)
+                                .padding(.top, 10)
+                                .padding(.trailing, 25)
+                        }
+                        .background(Color.red.opacity(0.1))
+                        .padding(.leading, 25)
+                        .padding(.trailing, 25)
                     }
-                    .background(Color.red)
-                    .padding(.leading, 25)
-                    .padding(.trailing, 25)
-                    //.cornerRadius(20)
-                    .cornerRadius(20, corners: .allCorners)
-                    .background(Color.white)
+                    //.frame(width: geo.size.width - 50, height: 400, alignment: .center)
+                    //.cornerRadius(40, corners: .allCorners)
                 }
                 .frame(width: geo.size.width, height: geo.size.height)
                 .background(Color.black.opacity(0.3))
+                
+
             }
         }
+}
+
+
+extension VehicView {
+    @ViewBuilder func testVehi() -> some View {
+            
+    }
     
 }
 
