@@ -15,14 +15,10 @@ struct VehicView: View {
             GeometryReader { geo in
                 VStack {
                     ZStack {
-                        Text("haha")
+                        ScrollView {}
                             .background(Color.green)
                             .frame(width: geo.size.width - 50, height: 400, alignment: .center)
-                            .cornerRadius(40, corners: .allCorners)
-                        Image("111")
-                            .background(Color.green)
-                            .frame(width: geo.size.width - 50, height: 400, alignment: .center)
-                            .cornerRadius(40, corners: .allCorners)
+                            .cornerRadius(10)
                         VStack(alignment: .leading) {
                             Image("111")
                                 .resizable()
@@ -47,13 +43,9 @@ struct VehicView: View {
                         .padding(.leading, 25)
                         .padding(.trailing, 25)
                     }
-                    //.frame(width: geo.size.width - 50, height: 400, alignment: .center)
-                    //.cornerRadius(40, corners: .allCorners)
                 }
                 .frame(width: geo.size.width, height: geo.size.height)
                 .background(Color.black.opacity(0.3))
-                
-
             }
         }
 }

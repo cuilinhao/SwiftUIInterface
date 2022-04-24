@@ -972,7 +972,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = YR55ASR2CN;
+				DEVELOPMENT_TEAM = L8MRL9B64V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Demo/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -996,7 +996,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = YR55ASR2CN;
+				DEVELOPMENT_TEAM = L8MRL9B64V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Demo/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
