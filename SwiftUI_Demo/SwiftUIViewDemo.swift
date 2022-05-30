@@ -20,16 +20,20 @@ struct SwiftUIViewDemo: View {
                     
                     switch index {
                     case 0 :
-                        NavigationLink(
-                            destination: AnimationDemo(),  label: {
-                                Image("111")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .cornerRadius(25)
-                                Text("GeometryReaderView")
-                                    .foregroundColor(Color.purple)
-                                    .padding()
-                            })
+//                        NavigationLink(
+//                            destination: AnimationDemo(),  label: {
+//                                Image("111")
+//                                    .resizable()
+//                                    .frame(width: 50, height: 50)
+//                                    .cornerRadius(25)
+//                                Text("GeometryReaderView")
+//                                    .foregroundColor(Color.purple)
+//                                    .padding()
+//                            })
+                        self.___configurePushVc({
+                            return VehicView()
+                            //self.prese
+                        }, title: "vehicleTest")
                     case 1:
                         HStack(spacing: 20) {
                             Image("111")
@@ -117,6 +121,10 @@ struct SwiftUIViewDemo: View {
                         self.___configurePushVc({
                             return CountView()
                         }, title: "CountView")
+                    case 17:
+                        self.___configurePushVc({
+                            return VehicView()
+                        }, title: "vehicleTest")
                     default:
                         HStack {
                             Image("111")

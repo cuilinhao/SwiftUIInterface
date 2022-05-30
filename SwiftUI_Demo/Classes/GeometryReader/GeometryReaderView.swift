@@ -237,3 +237,127 @@ struct GeometryReaderView_Previews: PreviewProvider {
         GeometryReaderView()
     }
 }
+
+/*
+//
+//  ContentView.swift
+//  TestSwiftUI
+//
+//  Created by Linhao CUI 崔林豪 on 2022/5/12.
+//
+
+import SwiftUI
+
+//.padding(.init(top: 30, leading: 30, bottom: 30, trailing: 30))
+
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, world!")
+            .padding()
+        VStack {
+            VStack(alignment: .leading, spacing: 7) {
+                HStack {
+                    Text("vehicle location sdmfmd")
+                        .font(.system(size:19))
+                        .fixedSize(horizontal: false, vertical: true)
+                    Group {
+                        Text("Away from me 23233")
+                            .background(Color.green)
+                            .font(.system(size:23))
+                            //.padding(.trailing, 20+10+30)
+                            .lineLimit(1)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                     .transition(.opacity)
+                     
+                }//.lineLimit(1)
+
+                Group {
+                    Text("华夏东路dsfksdfkjdgjdkfgjdfkgjdkfgdkfggfdkj")
+                        .background(Color.green)
+                }.transition(.opacity)
+            }
+            .font(.system(size:15))
+            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+            .padding()
+            .background(Color.purple)
+            .onTapGesture {
+                //cameraCoordinate = vehicleCoordinate
+            }
+        }
+        .padding(.horizontal, 20)
+        .padding(.bottom, 45)
+
+        
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+
+ //
+ //  ContentView.swift
+ //  TestSwiftUI
+ //
+ //  Created by Linhao CUI 崔林豪 on 2022/5/12.
+ //
+
+ import SwiftUI
+
+ //.padding(.init(top: 30, leading: 30, bottom: 30, trailing: 30))
+
+ struct ContentView: View {
+     var body: some View {
+         Text("Hello, world!")
+             .padding()
+         VStack {
+             VStack(alignment: .leading, spacing: 7) {
+                 HStack {
+                     Text("vehicle location sdmfmd")
+                         .font(.system(size:19))
+                         .fixedSize(horizontal: false, vertical: true)
+                     Group {
+                         Text("Away from me 23233")
+                             .background(Color.green)
+                             .font(.system(size:23))
+                             //.padding(.trailing, 20+10+30)
+                             .lineLimit(1) //设置行数
+                             //横向还是竖向换行
+                             .fixedSize(horizontal: false, vertical: true)
+                     }
+                      .transition(.opacity)
+                      
+                 }//.lineLimit(1)
+
+                 Group {
+                     Text("华夏东路dsfksdfkjdgjdkfgjdfkgjdkfgdkfggfdkj")
+                         .background(Color.green)
+                 }.transition(.opacity)
+             }
+             .font(.system(size:15))
+             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+             .padding()
+             .background(Color.purple)
+             .onTapGesture {
+                 //cameraCoordinate = vehicleCoordinate
+             }
+         }
+         .padding(.horizontal, 20)
+         .padding(.bottom, 45)
+
+         
+     }
+ }
+
+ struct ContentView_Previews: PreviewProvider {
+     static var previews: some View {
+         ContentView()
+     }
+ }
+
+ 
+ */

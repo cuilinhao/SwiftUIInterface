@@ -66,6 +66,7 @@
 		639DDD2727CB65EA00D5E802 /* VehicleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DDD2627CB65EA00D5E802 /* VehicleSwiftUIView.swift */; };
 		639DDD2B27CB782D00D5E802 /* SwiftTableViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DDD2A27CB782D00D5E802 /* SwiftTableViewDemo.swift */; };
 		639DDD3027CB8AFB00D5E802 /* Bundel+Codeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DDD2F27CB8AFB00D5E802 /* Bundel+Codeable.swift */; };
+		63C9454A2812917B005F5144 /* VehicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C945492812917B005F5144 /* VehicView.swift */; };
 		707600B2259A185B004A77D0 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 707600B1259A185B004A77D0 /* landmarkData.json */; };
 		707600B6259A18D5004A77D0 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600B5259A18D5004A77D0 /* Landmark.swift */; };
 		707600BA259A18E3004A77D0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707600B9259A18E3004A77D0 /* ModelData.swift */; };
@@ -152,6 +153,7 @@
 		639DDD2627CB65EA00D5E802 /* VehicleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSwiftUIView.swift; sourceTree = "<group>"; };
 		639DDD2A27CB782D00D5E802 /* SwiftTableViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTableViewDemo.swift; sourceTree = "<group>"; };
 		639DDD2F27CB8AFB00D5E802 /* Bundel+Codeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundel+Codeable.swift"; sourceTree = "<group>"; };
+		63C945492812917B005F5144 /* VehicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicView.swift; sourceTree = "<group>"; };
 		707600B1259A185B004A77D0 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		707600B5259A18D5004A77D0 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		707600B9259A18E3004A77D0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -465,11 +467,21 @@
 				511F19F1257494B90000B12D /* TextEditor */,
 				511F19F2257494B90000B12D /* Button */,
 				511F19EF257494B90000B12D /* Menu */,
+				63C945482812915B005F5144 /* Vehic */,
 				511F19EC257494B90000B12D /* Link */,
 				51E90F14256F4ED400BD1E5F /* Introduction */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
+		};
+		63C945482812915B005F5144 /* Vehic */ = {
+			isa = PBXGroup;
+			children = (
+				63C945492812917B005F5144 /* VehicView.swift */,
+			);
+			name = Vehic;
+			path = SwiftUI_Demo/Classes/Vehic;
+			sourceTree = SOURCE_ROOT;
 		};
 		67828C93BE7DB9E430249C72 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -752,6 +764,7 @@
 				5115B1D825921DBD002AECD8 /* TabBar2.swift in Sources */,
 				639DDD2727CB65EA00D5E802 /* VehicleSwiftUIView.swift in Sources */,
 				51592BCB257DD268001C8D40 /* EditButtonView.swift in Sources */,
+				63C9454A2812917B005F5144 /* VehicView.swift in Sources */,
 				515E9A95257F65BA0097676F /* LinkView.swift in Sources */,
 				707600CE259A1E5A004A77D0 /* LandmarkRow.swift in Sources */,
 				511BD59325888F3B0069F351 /* StackDemo.swift in Sources */,
@@ -959,7 +972,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = YR55ASR2CN;
+				DEVELOPMENT_TEAM = L8MRL9B64V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Demo/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -983,7 +996,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = YR55ASR2CN;
+				DEVELOPMENT_TEAM = L8MRL9B64V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Demo/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
